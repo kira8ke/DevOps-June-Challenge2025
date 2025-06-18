@@ -82,10 +82,6 @@ Nginx reverse proxy routing
 
 Service-to-service networking in Docker
 
-🙌 Author
-Gloria Wanyaga
-GitHub: @kira8ke
 
-🏁 Challenge
-This task is part of the DevOps June Challenge 2025
-```
+
+
