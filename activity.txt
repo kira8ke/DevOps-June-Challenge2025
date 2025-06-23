@@ -1,1 +1,2 @@
 "Testing activity log" 
+Testing day 2 because none of my updates are showing on my progress bar 
