@@ -1,0 +1,60 @@
+# Day 7: Simple Web Scraper with Docker 🕸️🐳
+
+This is **Day 7** of my [DevOps June Challenge 2025](https://github.com/kira8ke/DevOps-June-Challenge2025).  
+The goal was to build a simple web scraper using Python and Docker.
+
+---
+
+## 🧠 What I Learned
+
+- How to use Python libraries like `requests` and `BeautifulSoup` for scraping web content.
+- How to containerize a Python script using Docker.
+- How to write and manage a basic `Dockerfile`.
+- Importance of using `requirements.txt` for dependencies.
+
+---
+
+## 📂 Project Structure
+
+day-7-web-scraper-new/
+├── scraper.py
+├── Dockerfile
+└── requirements.txt
+
+yaml
+
+
+---
+
+## 🔧 Technologies Used
+
+- Python
+- Docker
+- BeautifulSoup (`bs4`)
+- Requests
+
+---
+
+## 🐍 Running Locally (Without Docker)
+
+```bash
+pip install -r requirements.txt
+python scraper.py
+🐳 Running with Docker
+bash
+
+# Build the Docker image
+docker build -t day-7-web-scraper .
+
+# Run the container
+docker run day-7-web-scraper
+📜 Output
+If the website is accessible, you'll see the title printed like this:
+
+yaml
+
+Website Title: Example Domain
+💡 Notes
+This scraper is basic and designed for learning.
+
+Always check a website's robots.txt and terms of service before scraping.
