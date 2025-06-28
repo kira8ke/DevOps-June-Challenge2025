@@ -30,7 +30,7 @@ yaml
 
 - Python
 - Docker
-- BeautifulSoup (`bs4`)
+- BeautifulSoup ('bs4)
 - Requests
 
 ---
